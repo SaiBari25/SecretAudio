@@ -11,7 +11,11 @@ body {
     font-family: 'Arial', sans-serif;
     flex-direction: column;
 }
-
+h3 {
+    color: rgb(59, 113, 159);
+    text-align: center;
+    margin-bottom: 20px;
+}
 #message {
     font-size: 2rem;
     text-align: center;
