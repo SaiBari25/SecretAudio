@@ -26,10 +26,10 @@ let volumeInterval = setInterval(() => {
     } else {
         clearInterval(volumeInterval);
         message.textContent = "Volume is high! Get ready...";
-        setTimeout(triggerExtremePhase, 1000); // less wait before prank
+       
+ setTimeout(triggerExtremePhase, 1000); // less wait before prank
     }
-}, 1000); // change to 1 second interval
-
+}, 2000); // change to 1 second interval
 
 function triggerExtremePhase() {
     lowSound.pause();
